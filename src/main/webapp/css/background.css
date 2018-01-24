@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+body{margin:0px;padding:0px;font-size:12px;background-image: url(../backgroundimg/Background_landing_background.jpg); background-repeat:repeat-x;background-position:-70px -70px;}
+.content_podup {height: 335px;width: 490px;margin-right: auto;margin-left: auto;padding-top:150px;*padding-top:130px;}
+.background_ty{ width:483px; height:45px; float:left; position:relative; z-index:101; left:0px; top:0px; background-image: url(../backgroundimg/background_ty.jpg); background-repeat:no-repeat;  }
+.background_input{ width:218px; height:32px;  background:none; border:none; line-height:32px; padding-left:10px; float:left; margin-bottom:20px;}
+.background_nav{width:300px; height:auto; overflow:hidden; float:left; margin-bottom:20px;}
+.background_nav span{ color: #FF0000;}
+
+
+/*****--------灰色-----------******/
+.Mofpodup_lan {float: left;height: 199px;width:340px; padding-top:135px; padding-left:148px;background-image: url(../backgroundimg/lan_background.jpg); background-repeat:no-repeat; }
+.log_lan{ width:77px; height:31px;  float:left;}
+.log_lan a{ display:block; width:77px; height:31px; text-decoration:none; color:#FFFFFF; text-align:center; line-height:31px; font-weight:bold; font-size:14px;background-image: url(../backgroundimg/lans_nav.jpg); background-repeat:no-repeat;}
+
+/****----红色-----****/
+.Mofpodup {float: left;height: 200px;width:340px; padding-top:135px; padding-left:148px;border: 1px solid #CCCCCC;background-image: url(../backgroundimg/background01.jpg); background-repeat:no-repeat; }
+.log_in{ width:77px; height:31px;  float:left;}
+.log_in a{ display:block; width:77px; height:31px; text-decoration:none; color:#FFFFFF; text-align:center; line-height:31px; font-weight:bold; font-size:14px;background-image: url(../backgroundimg/background_nav01.jpg); background-repeat:no-repeat;}
+.log_in a:hover{ display:block; width:77px; height:31px; text-decoration:none; color:#FFFFFF; text-align:center; line-height:31px; font-weight:bold; font-size:14px;background-image: url(../backgroundimg/background_nav02.jpg); background-repeat:no-repeat;}
+.reset{width:77px; height:31px;float:left; margin-left:20px;}
+.reset a{ display:block; width:77px; height:31px; text-decoration:none; color: #666666; text-align:center; line-height:31px; font-weight:bold; font-size:14px;background-image: url(../backgroundimg/background_nav03.jpg); background-repeat:no-repeat;}
+.reset a:hover{ display:block; width:77px; height:31px; text-decoration:none; text-align:center; line-height:31px; font-weight:bold; font-size:14px;background-image: url(../backgroundimg/background_nav03.jpg); background-repeat:no-repeat;}

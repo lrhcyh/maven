@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.top{height:92px;width:100%; background:url(../../lanimg/topbg.png) repeat-x;}
+.functio_bj{height:92px;width:1050px;background:url(../../lanimg/topright_bg.png) no-repeat left;position:relative}
+.logo_text{position:absolute;top:55px;left:42px;width:150px;height:24px; font-weight:bold; letter-spacing:2px;}
+.functio_bj ul,li{ margin:5px 0 0 10px; padding:0px; list-style-type:none;}
+.functio_bj li{ width:79px; height:79px; float:right; margin-right:0px;}
+.functio_hover1 a{ display:block;width:79px; height:79px;  background:url(../../lanimg/07.gif) no-repeat center top;}
+.functio_hover1 a:hover{ display:block;width:79px; height:79px; background-image:url(../../hongimg/Hhover_01.png);}
+.functio_hover2 a{ display:block;width:79px; height:79px; background:url(../../lanimg/01.gif) no-repeat center top;}
+.functio_hover2 a:hover{ display:block;width:79px; height:79px; background-image:url(../../hongimg/Hhover_02.png);}
+.functio_hover3 a{ display:block;width:79px; height:79px;  background:url(../../lanimg/02.gif) no-repeat center top;}
+.functio_hover3 a:hover{ display:block;width:79px; height:79px; background-image:url(../../hongimg/Hhover_03.png);}
+.functio_hover4 a{ display:block;width:79px; height:79px;  background:url(../../lanimg/03.gif) no-repeat center top;}
+.functio_hover4 a:hover{ display:block;width:79px; height:79px; background-image:url(../../hongimg/Hhover_04.png);}
+.functio_hover5 a{ display:block;width:79px; height:79px;  background:url(../../lanimg/04.gif) no-repeat center top;}
+.functio_hover5 a:hover{ display:block;width:79px; height:79px; background-image:url(../../hongimg/Hhover_05.png);}
+.functio_hover6 a{ display:block;width:79px; height:79px;  background:url(../../lanimg/05.gif) no-repeat center top;}
+.functio_hover6 a:hover{ display:block;width:79px; height:79px; background-image:url(../../hongimg/Hhover_06.png);}
+.functio_hover7 a{ display:block;width:79px; height:79px;  background:url(../../lanimg/06.gif) no-repeat center top;}
+.functio_hover7 a:hover{ display:block;width:79px; height:79px; background-image:url(../../hongimg/Hhover_07.png);}
+
+
+/****---红色头部--****/
+.InfoBar{width:100%; height:30px;line-height:30px; float:left; background-image:url(../../hongimg/InfoBar_Hbj.jpg)}
+.InfoBar_1{ width:643px;height:30px; float:left;font-size:12px;;line-height:32px;-line-height:30px;color:#fff;background-image:url(../../hongimg/InfoBar_Hbj2.jpg);background-repeat:no-repeat;vertical-align: middle;}
+.InfoBar_1 span{ height:22px; float:left; margin-top:3px; -margin-top:0px; margin-right:7px;}
+.InfoBar_1 .sun{width:23px;background:url(../../hongimg/taiy_hong.jpg) no-repeat;}
+.InfoBar_1 .clock{width:20px;background:url(../../lanimg/shijian.png) 0px 3px no-repeat;padding-left:24px;height:24px;line-height:24px;}
+.InfoBar_2{ width:283px; height:30px; float:right; padding-left:65px; padding-top:5px; background-color:#FFFFFF;  background-image:url(../../hongimg/InfoBar_2h.jpg); background-repeat:no-repeat; position:relative; left:0px; top:-5px; z-index:101; }
+.InfoBar_2 span{ padding-right:5px;}
+.InfoBar_input1{width:70px; height:20px; float:left; line-height:20px;color:#FFFFFF; }
+.InfoBar_input2{ width:70px; height:20px; margin-left:43px;line-height:20px; color:#FFFFFF;  float:left; }
+.InfoBar_input3{ width:60px; height:20px; margin-left:30px;line-height:20px; color:#FFFFFF;  float:left;}
+/***---contenter--****/
+.contenter{ width:100%; height:auto; overflow:hidden; float:left;background:#fff;}
+.contenter_left{ overflow:hidden; float:left;margin-top:0px;margin-left:0px; float:left;position:relative;background:url(../../hongimg/display_redright_bg.png) repeat-x}
+.contenter_title { height:auto; overflow:hidden;}
+.contenter_title h2{ margin-bottom:15px;background:url(../../hongimg/red_h2bg.png) no-repeat;height:29px;font-size:12px;color:#FFF;padding-left:42px;line-height:29px;width: auto}
+.title_absolute{position:absolute;top:300px;}
+.display_content{}
+.content_right{float:right;margin:2px 0 0 0;}
+.contentRightHeightcss{float:right;width:100%;background:url(../../hongimg/tetie.jpg) 50% 20% no-repeat;}
+.contentRight{background:url(../../hongimg/red_earth.jpg) right bottom no-repeat;width:100%;height:100%}
+.splitcss{ width:10px;height:100%; float:left;background: url(../../hongimg/sanjiao_tiao2.png) repeat-y;margin-top:2px;}
+ul li .threeChilend{background: url(../../hongimg/hover_ti.jpg) no-repeat}
+ul li .trhrrChilendHove{background:url(../../hongimg/vitia.jpg) no-repeat}
+.shortcutMenuparn{background:url(../../hongimg/red_h2bg_03.png) repeat-x}

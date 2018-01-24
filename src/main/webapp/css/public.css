@@ -1,0 +1,197 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:14px/1.5 "Microsoft YaHei","瀹嬩綋","Arial Narrow",HELVETICA;background:#2d459f;-webkit-text-size-adjust:100%; color: #333}
+input {font-family: "Microsoft YaHei";}
+a{color:#476eb9;text-decoration:none}
+a:hover{text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+p{word-wrap:break-word}
+
+/*placeholder鏍峰紡澶勭悊*/
+::-webkit-input-placeholder { font-family: "Microsoft YaHei","瀹嬩綋","Arial Narrow",HELVETICA; }
+::-moz-placeholder { font-family: "Microsoft YaHei","瀹嬩綋","Arial Narrow",HELVETICA; } /* firefox 19+ */
+:-ms-input-placeholder { font-family: "Microsoft YaHei","瀹嬩綋","Arial Narrow",HELVETICA;  } /* ie */
+input:-moz-placeholder { font-family: "Microsoft YaHei","瀹嬩綋","Arial Narrow",HELVETICA;  }
+/*placeholder鏍峰紡澶勭悊*/
+
+/*鎵瑰鐞嗘牱寮�*/
+.hide{
+    display: none;
+}
+.clear{
+    clear: both;
+    overflow: hidden;
+}
+.t-r{
+    text-align: right;
+}
+.t-c{
+    text-align: center;
+}
+.f12{
+    font-size: 12px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.offset-65{
+    margin-left: 65px;
+}
+.cf:after, .pageLinks:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cf, .pageLinks {
+    zoom: 1;
+}
+
+.w100 {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    min-width: 1224px;
+}
+.w1000 {
+    width: 1000px;
+    clear: both;
+    margin: 0 auto;
+    text-align: left;
+}
+.w1200 {
+    width: 1200px;
+    clear: both;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+.w-max1480{
+    max-width: 1480px;
+    clear: both;
+    margin: 0 auto;
+}
+
+.top20{
+    margin-top: 20px;
+}
+.top30{
+    margin-top: 30px;
+}
+.top40{
+    margin-top: 40px;
+}
+
+.top60{
+    margin-top: 60px;
+}
+.b {
+    font-weight: bold;
+}
+.red{
+    color: #f04c43;
+}
+/*鎵瑰鐞嗘牱寮�*/
+html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background: url("../images/hx-login-bj.png") center center no-repeat #76b1d3;
+}
+.login-wrapper{
+    width: 465px;
+    height: 360px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -232.5px;
+    margin-top: -180px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1),-2px 2px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.1),-2px 2px 2px rgba(0,0,0,0.1);;
+}
+.login-wrapper .logo{
+    height: 125px;
+      background: url("../images/yy-login-logo.png") center center no-repeat;
+}
+.login-wrapper .form-group{
+    margin-bottom: 20px;
+}
+.login-wrapper .form-group .group-title{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 38px;
+    width: 125px;
+    padding-right: 15px;
+    text-align: right;
+}
+.login-wrapper .form-group input[type=text],.login-wrapper .form-group input[type=password]{
+    width: 238px;
+    padding: 4px 10px;
+    border: 1px solid #e1e1e1;
+    height: 28px;
+    line-height: 28px;
+    outline: none;
+    vertical-align: middle;
+}
+.login-wrapper .form-group input[type=text]:focus,.login-wrapper .form-group input[type=password]:focus{
+    border-color: #fc0d1b;
+}
+.login-wrapper .error{
+    padding-left: 140px;
+    margin-top: -20px;
+    line-height: 30px;
+    color: #f00;
+    font-size: 12px;
+}
+.login-wrapper .btn-wrapper{
+    padding-top: 15px;
+    padding-left: 140px;
+}
+.login-wrapper .btn-wrapper input{
+    width: 118px;
+    height: 38px;
+    line-height: 38px;
+    -ms-line-height:38px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #3068b4;
+    margin-right: 17px;
+    font-size: 16px;
+    outline: none;
+    background: #3068b4;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.login-wrapper .btn-wrapper input:focus{
+    outline: 0;
+}
+.login-wrapper .btn-wrapper .submit{
+    background: url("../images/btn-01.jpg") left center repeat-x;
+    color: #fff;
+    border-color: #2d64ae;
+}
+.login-wrapper .btn-wrapper .submit:hover{
+    background: #2e65b0;
+}
+.login-wrapper .btn-wrapper .reset{
+    background: url("../images/btn-02.jpg") left center repeat-x;
+    color: #666;
+    border-color: #e1e1e1;
+}
+.login-wrapper .btn-wrapper .reset:hover{
+    background: #d1d1d1;
+    color: #fff;
+    border-color: #d1d1d1;
+}

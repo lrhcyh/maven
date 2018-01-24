@@ -1,0 +1,60 @@
+body{
+	background: #fff;
+}
+.wpy-box{
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	padding: 10px;
+	background: #f5f5f5;
+}
+.form-item{
+	margin-bottom:10px;
+	position: relative;
+	overflow: hidden;
+}
+.form-item table{
+	width: 100%;
+	text-align:left;
+	line-height: 30px;
+}
+.form-item table input{
+	width: 90%
+}
+.wpy-left-content{
+	width: 350px;
+	float: left;
+}
+.wpy-left-content .bd{
+	height: 200px;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+}
+.wpy-left-content p{
+	line-height: 30px;
+	cursor: pointer;
+}
+.wpy-left-content .active{
+	background: #f5f5f5;
+}
+.wpy-right-tool{
+	margin-left: 360px;
+}
+.wpy-right-tool .title{
+	margin-bottom: 20px;
+}
+.wpy-right-tool span{
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	margin:5px 0;
+	line-height: 28px;
+	text-align: center;
+	background: #fafafa;
+	cursor: pointer;
+}
+.wpy-right-tool span:hover{
+	background: #fff;
+}

@@ -1,0 +1,11 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:14px/1.428571429 "Microsoft YaHei","Arial Narrow",HELVETICA;background:#f1f1f1;-webkit-text-size-adjust:100%; color: #333}
+a{color:#333;text-decoration:none}
+a:hover{color:#4e7bd4;text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;display: inline-block;}
+p{word-wrap:break-word}
+button{
+    font-family: "Microsoft YaHei","Arial Narrow",HELVETICA;
+}
