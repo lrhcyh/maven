@@ -209,7 +209,7 @@ public class DemoController extends BaseController {
                 System.out.println("statusCode=" + statusCode);
                 
                 String data = HTTPClientService.sendPost("http://localhost:8080/PdfServer/servlet/InitPvServlet", "name=" + savedDir + "\\" + savedFileName);
-                PDFParseUtils.pdfParse(data, savedFileName);
+                //PDFParseUtils.pdfParse(data, savedFileName);
 				
 			}
 		} catch (Exception e) {
